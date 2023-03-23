@@ -1,6 +1,10 @@
 # ChatGPT Bash CLI 
 This Bash script allows users to interact with OpenAI's ChatGPT language model through the OpenAI API.
 
+
+![](https://github.com/TaurusOmar/ChatGPT-Bash-Script/blob/main/2023-03-23%2016.04.52.gif)
+
+
 ## Main function 
 Defines a context file for the conversation, creates it if it doesn't exist, loads and saves it, allowing the user to follow the conversation thread with ChatGPT. When the user decides to exit ChatGPT, the script deletes the "chat_context" file to recreate it the next time it is executed.
 
